@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+  text-align: center;
+
+}
+.timer {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 200px;
+border: 2px solid;
+padding: 20px;
+}
+.main {
+  display: flex;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+
+}
+button {
+  background: blueviolet;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
